@@ -1,0 +1,76 @@
+/*Yazi tipleri*/
+
+h1{
+    font-family: fantasy ;font-weight:bolder; text-align: center;
+    font-style:italic;color: rgb(191, 34, 16)}
+legend{
+    font-weight: bold; font-style: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(191, 34, 16);
+    text-shadow: sienna;}
+ #alinti-metin, #ata {
+    font-size: 30px;
+    color: #34042f;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;}
+
+     /*sol kisim*/
+
+
+#ikon {width: 20px;height: 20 px;}
+article,figcaption{ color: teal; text-shadow: yellow; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: unset;}
+div:nth-child(2) {color: red;}
+.left-side{flex-grow: 1;}
+.profile-image{
+    max-width: 150px;}
+header{padding: 20px;
+background-color: rgb(96, 135, 213);
+border-radius: 70px;}
+a:link {color:blue;}
+a:visited {color: darkorchid;}
+
+
+/*fieldset bolumu*/
+
+main{width:80% ;margin: auto;}
+#my-name{ color: rgb(33, 24, 162);
+    font-family: fantasy;}
+    #content-container{
+        display: flex;
+        background-color: rgb(219, 163, 223);
+        border-radius: 20px;}
+.right-side{flex-grow: 4;}
+table{font-size: 12px;width: 100%;}
+caption{
+    font-weight: bolder;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(9, 50, 46, 0.891);
+    text-transform: capitalize;
+    font-style: oblique;
+    color: rgb(127, 13, 13);}
+tr:hover{background: rgb(7, 220, 152);}
+td:nth-child(even){
+    background: rgb(220, 7, 156);
+    padding: 5px;
+    margin: 5px;}
+
+th{
+    background: #350e78;
+    color: rgb(255, 255, 255);
+    text-align: left;}
+
+fieldset{margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
