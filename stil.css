@@ -22,6 +22,7 @@ legend{
 article,figcaption{ color: teal; text-shadow: yellow; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: unset;}
 div:nth-child(2) {color: red;}
 .left-side{flex-grow: 1;}
+.social-media>img {margin-left:20px}
 .profile-image{
     max-width: 150px;}
 header{padding: 20px;
@@ -29,13 +30,15 @@ background-color: rgb(96, 135, 213);
 border-radius: 70px;}
 a:link {color:blue;}
 a:visited {color: darkorchid;}
+#content-container span {margin-left: 20px;}
 
 
 /*fieldset bolumu*/
 
-main{width:80% ;margin: auto;}
-#my-name{ color: rgb(33, 24, 162);
-    font-family: fantasy;}
+main{width:80%; height: 80%; margin: auto;}
+.right-side div { color: rgb(162, 24, 93)}
+.right-side label { color: rgb(33, 24, 162);
+        font-family: fantasy;}
     #content-container{
         display: flex;
         background-color: rgb(219, 163, 223);
